@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import SpeciesTable from './components/speciesTable'
+// import ImageForm from './components/imageForm'
 import './App.css';
 
 class App extends Component {
@@ -7,6 +8,7 @@ class App extends Component {
     return (
       <div className="container">
         <SpeciesTable />
+        {/* <ImageForm /> */}
       </div>
     );
   }
